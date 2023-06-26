@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
-        <div className="flex flex-col-reverse items-center py-6 lg:h-[36rem] lg:flex-row">
+        <div className="flex flex-col-reverse items-center py-6 lg:h-[36rem] lg:flex-row bg-gradient-to-r from-purple-50 via-white to-teal-50 px-2">
             <div className="lg:w-1/2">
                 <h1 className="text-5xl font-bold mb-5">Hello, I am <br /> <span className='text-purple-500'>Pavel Khan</span></h1>
                 <TypeAnimation

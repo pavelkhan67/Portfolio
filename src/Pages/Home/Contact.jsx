@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='lg:w-8/12 mx-auto border-2 border-purple-500 mb-20 rounded-md'>
+    <div id='contact' className='lg:w-8/12 mx-auto border-2 border-purple-500 mb-20 rounded-md bg-gradient-to-r from-purple-50 via-white to-teal-50'>
       <div className="max-w-md mx-auto py-10 px-2 md:px-0" >
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
