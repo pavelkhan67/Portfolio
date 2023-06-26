@@ -20,6 +20,7 @@ const Contact = () => {
 
       setName('');
       setEmail('');
+      setSubject('');
       setMessage('');
     }, 2000);
   };

@@ -24,7 +24,7 @@ const Projects = () => {
                 <AutoplaySlider
                     play={true}
                     cancelOnInteraction={false} // should stop playing on user interaction
-                    interval={6000}
+                    interval={4000}
                 >
                     <div className='h-full'>
                         <img className='h-full' src={p1img1} alt="" />
@@ -45,13 +45,17 @@ const Projects = () => {
                         4. User Profile and Payment Integration: User profiles and secure payment integration for convenient class bookings. <br />
                         5. Notifications and Reminders: Timely notifications keep users, teachers, and admins informed and engaged.</p>
 
-                    <div className='flex gap-5 mt-5'>
-                        <p>Project Link:</p>
+                    <div className='flex gap-5 my-3'>
+                        <p className='font-semibold'>Project Link:</p>
                         <p className='font-semibold text-purple-500'><a href='https://github.com/pavelkhan67/Art_Of_Defence_Client'>Client Side</a> </p>
                         <p>|</p>
                         <p className='font-semibold text-purple-500'><a href='https://github.com/pavelkhan67/Art_Of_Defence_Server'>Server Side</a> </p>
                         <p>|</p>
                         <p className='font-semibold text-purple-500'><a href='https://summercamp-7dfd6.web.app/'>Live Site</a> </p>
+                    </div>
+                    <div>
+                        <p className='font-semibold'>Technologies:</p>
+                        <p>RectJs, Tailwind CSS, NodeJs, ExpressJs, REST API, MongoDB, Firebase Auth, React Icon, Lottie files, npm packages.</p>
                     </div>
                 </div>
             </div>
@@ -61,7 +65,7 @@ const Projects = () => {
                 <AutoplaySlider
                     play={true}
                     cancelOnInteraction={false} // should stop playing on user interaction
-                    interval={6000}
+                    interval={4000}
                 >
                     <div className='h-full'>
                         <img className='h-full' src={p2img1} alt="" />
@@ -82,13 +86,17 @@ const Projects = () => {
                         4. Hotel Booking and Online Payment: Seamless hotel booking process with secure online payment integration and booking confirmations. <br />
                         5. Search and Filter Functionality: Robust search and filtering options for users to find suitable travel destinations and hotels based on preferences.</p>
 
-                    <div className='flex gap-5 mt-5'>
-                        <p>Project Link:</p>
+                    <div className='flex gap-5 my-3'>
+                        <p className='font-semibold'>Project Link:</p>
                         <p className='font-semibold text-purple-500'><a href='https://github.com/pavelkhan67/HappyToTrip_client'>Client Side</a> </p>
                         <p>|</p>
                         <p className='font-semibold text-purple-500'><a href='https://github.com/pavelkhan67/HappyToTrip_Server'>Server Side</a> </p>
                         <p>|</p>
                         <p className='font-semibold text-purple-500'><a href='https://happytotrip.web.app/'>Live Site</a> </p>
+                    </div>
+                    <div>
+                        <p className='font-semibold'>Technologies:</p>
+                        <p>RectJs, Tailwind CSS, NodeJs, ExpressJs, Firebase Auth, REST API , React Icon, Lottie files, npm packages.</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +106,7 @@ const Projects = () => {
                 <AutoplaySlider
                     play={true}
                     cancelOnInteraction={false} // should stop playing on user interaction
-                    interval={6000}
+                    interval={4000}
                 >
                     <div className='h-full'>
                         <img className='h-full' src={p3img1} alt="" />
@@ -113,19 +121,24 @@ const Projects = () => {
                 <div className='mt-16'>
                     <h2 className='text-3xl font-semibold'>Project Information: Toy Mania</h2>
                     <p className='pt-5'>
+                        <p className='text-xl font-semibold'>Features:</p>
                         1. Toy Search: Users can easily search for toys based on their preferences and find desired products quickly. <br />
                         2. Toy Listing: Users can add new toys to the website, expanding the collection and offering a diverse range of options. <br />
                         3. Shopping Cart: Users can add toys to their cart for purchase, creating a seamless and convenient shopping experience. <br />
                         4. Request Unavailable Toys: Users can request the owner to bring specific toys that are currently unavailable on the website, ensuring a personalized shopping experience. <br />
                         5. User Toy Collection: Users can view and manage their own collection of toys added to the website, enabling easy tracking and organization of their purchases.</p>
 
-                    <div className='flex gap-5 mt-5'>
-                        <p>Project Link:</p>
+                    <div className='flex gap-5 my-3'>
+                        <p className='font-semibold'>Project Link:</p>
                         <p className='font-semibold text-purple-500'><a href='https://github.com/pavelkhan67/Toy_Store_Client'>Client Side</a> </p>
                         <p>|</p>
                         <p className='font-semibold text-purple-500'><a href='https://github.com/pavelkhan67/Toy_store_Server'>Server Side</a> </p>
                         <p>|</p>
                         <p className='font-semibold text-purple-500'><a href='https://toymania-3a476.web.app/'>Live Site</a> </p>
+                    </div>
+                    <div>
+                        <p className='font-semibold'>Technologies:</p>
+                        <p>RectJs, Tailwind CSS, NodeJs, ExpressJs, Firebase Auth, REST API , React Icon, Lottie files, npm packages.</p>
                     </div>
                 </div>
             </div>
