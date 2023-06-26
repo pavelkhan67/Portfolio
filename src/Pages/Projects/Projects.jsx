@@ -13,6 +13,7 @@ import p3img2 from '../../assets/project/p3img2.png'
 import p3img3 from '../../assets/project/p3img3.png'
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
+import ScrollToTop from "react-scroll-to-top";
 
 
 const Projects = () => {
@@ -128,6 +129,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <ScrollToTop smooth />
         </div>
     );
 };

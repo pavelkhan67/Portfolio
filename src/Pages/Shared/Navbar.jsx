@@ -12,22 +12,22 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/projects">Project</NavLink></li>
-                        <li><NavLink to="/resume">Resume</NavLink></li>
+                        <li><NavLink to="/skill">Skills</NavLink></li>
                         <li><NavLink to="/about">About me</NavLink></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl"><span className='bg-purple-500 text-white rounded-full px-2'>P</span> Pavel</a>
+                <a className="text-2xl font-semibold"><span className='bg-purple-500 text-white rounded-full px-2'>P</span> Pavel</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-2">
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/projects">Project</NavLink></li>
-                    <li><NavLink to="/resume">Resume</NavLink></li>
-                    <li><NavLink to="/about">About me</NavLink></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#about">About Me</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn normal-case">Contact</a>
+                <a href='#contact' className="btn normal-case text-purple-500 border-purple-500">Contact</a>
             </div>
         </div>
     );
