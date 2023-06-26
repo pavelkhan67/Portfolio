@@ -20,13 +20,7 @@ const AboutMe = () => {
                         <Bounce left>
                             <h2 className="card-title font-bold">Pavel Khan</h2>
                             <p className="md:w-[75%] my-3">
-                                I am a Frontend(ReactJs)/Full-Stack(MERN) web developer with 1
-                                year+ of learning/working experience, and build some projects
-                                based on MERN, I love to work with logic and build it by
-                                programming, one more thing, I love to learn new technologies with
-                                very much excitement. My experiences, training, and dedication to
-                                the field of web development with my ability to build an
-                                attractive web application.
+                                I am an enthusiastic and dedicated Frontend/Full-Stack web developer, specializing in ReactJS and the MERN stack. With over 1 year of hands-on experience and a strong passion for logic and programming, I have successfully built several projects using the MERN stack. I thrive on continuously expanding my knowledge and eagerly embrace new technologies. Through my experiences, training, and unwavering commitment to web development, I possess the skills to create captivating and visually appealing web applications.
                             </p>
                             <p>
                                 <span className="font-bold">Email:</span>{" "}
