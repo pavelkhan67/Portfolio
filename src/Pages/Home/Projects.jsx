@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div className='my-10 md:my-20'>
+        <div id='project' className='my-10 md:my-20'>
             <h2 className='text-4xl font-semibold text-center'>Projects</h2>
             <p className='text-center pt-3 pb-10'>Here are some projects that i have been build in last few months.</p>
             <div className='md:grid grid-cols-3 gap-5 '>

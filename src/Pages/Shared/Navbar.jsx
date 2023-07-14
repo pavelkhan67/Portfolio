@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="flex items-center mt-5 md:mt-0">
                 <ul className=" px-2 flex flex-wrap gap-3 md:gap-5 justify-center">
                     <li className='hover:font-semibold'><NavLink to="/">Home</NavLink></li>
-                    <li className='hover:font-semibold'><NavLink to="/projects">Project</NavLink></li>
+                    <li className='hover:font-semibold'><a href="#project">Project</a></li>
                     <li className='hover:font-semibold'><a href="#skill">Skills</a></li>
                     <li className='hover:font-semibold'><a href="#about">About Me</a></li>
                     <li className='hover:font-semibold'><a href="#contact">Contact</a></li>

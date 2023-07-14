@@ -5,6 +5,7 @@ import Message from './Message';
 import Contact from './Contact';
 import Skills from '../Skills/Skills';
 import AboutMe from '../AboutMe/AboutMe';
+import ScrollToTop from "react-scroll-to-top";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Skills></Skills>
             <AboutMe></AboutMe>
             <Contact></Contact>
+            <ScrollToTop smooth />
         </div>
     );
 };

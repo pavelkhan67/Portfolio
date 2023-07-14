@@ -14,11 +14,12 @@ import p3img3 from '../../assets/project/p3img3.png'
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 import ScrollToTop from "react-scroll-to-top";
+import { NavLink } from 'react-router-dom';
 
 
 const Projects = () => {
     return (
-        <div className='my-10'>
+        <div className='mt-10 mb-5'>
             <div>
                 <h2 className='text-center text-4xl font-bold pb-5'>Project 1</h2>
                 <AutoplaySlider
@@ -143,6 +144,11 @@ const Projects = () => {
                 </div>
             </div>
             <ScrollToTop smooth />
+            <div className='text-center mt-10'>
+                <NavLink to="/"><button className="btn bg-purple-500 text-white">
+                    Back To Homepage
+                </button></NavLink>
+            </div>
         </div>
     );
 };
