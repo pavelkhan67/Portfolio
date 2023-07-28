@@ -28,7 +28,7 @@ const Projects = () => {
                     <figure><img className='h-52 w-full' src={img2} alt="Photo" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">
-                            Happy To Trip
+                            TravelEase
                         </h2>
                         <p>Experience the World's Wonders, Unveil Hidden Gems, and Create Lasting Memories with Our Travel Adventure Platform.</p>
                         <div className="card-actions justify-end">

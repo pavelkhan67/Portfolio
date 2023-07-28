@@ -79,7 +79,7 @@ const Projects = () => {
                     </div>
                 </AutoplaySlider>
                 <div className='mt-16'>
-                    <h2 className='text-3xl font-semibold'>Project Information: Happy To Trip</h2>
+                    <h2 className='text-3xl font-semibold'>Project Information: TravelEase</h2>
                     <p className='pt-5'>
                         1. User Registration and Booking System: Streamlined user registration, personalized experiences, and secure online hotel booking. <br />
                         2. Hotel Management for Hotel Managers: Dedicated portal for hotel managers to add and delete hotel listings, ensuring up-to-date and relevant content. <br />
