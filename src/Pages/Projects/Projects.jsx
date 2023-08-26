@@ -8,6 +8,7 @@ import p1img3 from '../../assets/project/p1img3.png'
 import p2img1 from '../../assets/project/p2img1.png'
 import p2img2 from '../../assets/project/p2img2.png'
 import p2img3 from '../../assets/project/p2img3.png'
+import p2img4 from '../../assets/project/p2img4.png'
 import p3img1 from '../../assets/project/p3img1.png'
 import p3img2 from '../../assets/project/p3img2.png'
 import p3img3 from '../../assets/project/p3img3.png'
@@ -77,6 +78,9 @@ const Projects = () => {
                     <div className='h-full'>
                         <img className='h-full' src={p2img3} alt="" />
                     </div>
+                    <div className='h-full'>
+                        <img className='h-full' src={p2img4} alt="" />
+                    </div>
                 </AutoplaySlider>
                 <div className='mt-16'>
                     <h2 className='text-3xl font-semibold'>Project Information: TravelEase</h2>
@@ -97,7 +101,7 @@ const Projects = () => {
                     </div>
                     <div>
                         <p className='font-semibold'>Technologies:</p>
-                        <p>RectJs, Tailwind CSS, NodeJs, ExpressJs, Firebase Auth, REST API , React Icon, Lottie files, npm packages.</p>
+                        <p>RectJs, Tailwind CSS, NodeJs, ExpressJs, Firebase Auth, REST API , SSLCommerz, React Icon, Lottie files, npm packages.</p>
                     </div>
                 </div>
             </div>
